@@ -1,0 +1,262 @@
+:root {
+    --bhb-font: 'Big Shoulders Display', cursive;
+    --p-font: 'Inter', sans-serif;   
+
+    /* bhb = backgrounds, headings, buttons */
+    /* p = paragraphs */
+}   
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/* -------  SEDANS COLUMN -------- */
+
+
+.sedans {
+    padding: 30px;
+    background-color: hsl(31, 77%, 52%);
+    height: 480px;
+    width: 280px;   
+    
+}
+
+.sedans h1 {
+    font-family: var(--bhb-font);
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+} 
+
+.sedans p {
+    font-family: var(--p-font);
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);  
+    text-shadow: 1;
+    line-height: 1.6; 
+    line
+}
+
+.sedans button {
+    padding:15px;
+    color: hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%);
+    border-radius: 20px;   
+    
+}
+
+.sedans button a {
+    padding:10px;
+    font-family: var(--p-font);
+    font-size:15px;
+    text-decoration: none;
+    color:hsl(31, 88%, 46%);
+}
+
+.sedans img {
+    height: 35px;
+    width: 50px;
+}
+
+
+
+/* -------  SUVS COLUMN -------- */
+
+
+
+.suvs {
+    padding: 30px;
+    background-color: hsl(184, 100%, 22%);
+    height: 480px;
+    width: 280px;   
+}
+
+.suvs h1 {
+    font-family: var(--bhb-font);
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+} 
+
+.suvs p {
+    font-family: var(--p-font);
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);  
+    text-shadow: 1;
+    line-height: 1.6; 
+    line
+}
+
+.suvs button {
+    padding:15px;
+    color: hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%);
+    border-radius: 20px;   
+    
+}
+
+.suvs button a {
+    padding:10px;
+    font-family: var(--p-font);
+    font-size:15px;
+    text-decoration: none;
+    color:hsl(184, 100%, 22%);
+}
+
+.suvs img {
+    height: 35px;
+    width: 50px;
+}
+
+
+
+/* -------  LUXURY COLUMN -------- */
+
+
+
+.luxury {
+    padding: 30px;
+    background-color: hsl(179, 100%, 13%);
+    height: 480px;
+    width: 280px; 
+    
+}
+
+.luxury h1 {
+    font-family: var(--bhb-font);
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+} 
+
+.luxury p {
+    font-family: var(--p-font);
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);  
+    text-shadow: 1;
+    line-height: 1.6; 
+    line
+}
+
+.luxury button {
+    padding:15px;
+    color: hsl(0, 0%, 95%);
+    border: hsl(0, 0%, 95%);
+    border-radius: 20px;   
+    
+}
+
+.luxury button a {
+    padding:10px;
+    font-family: var(--p-font);
+    font-size:15px;
+    text-decoration: none;
+    color:hsl(179, 100%, 13%);
+}
+
+.luxury img {
+    height: 35px;
+    width: 50px;
+}
+
+
+/* -------  RESPONSIVE DESIGN -------- */
+
+@media (min-width:1880px) {
+    .container h1 {
+        margin-top:20px;
+    }
+
+    .container p {
+        margin-top:20px;
+    }
+
+    .container button {
+        margin-top: 100px;
+    }
+
+    .sedans {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+    .luxury {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+}
+
+@media (min-width: 916px) and (max-width:1880px) {
+    .container h1 {
+        margin-top:20px;
+    }
+
+    .container p {
+        margin-top: 30px;
+        
+    }
+
+    .container button {
+        margin-top: 100px;
+    }
+
+    .sedans {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+    .luxury {
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+}
+
+@media (max-width: 916px) {
+    .container {
+        display:inline-block;
+        top:100%;
+    }
+
+    .container h1 {
+        margin-top:20px;
+    }
+
+    .container p {
+        margin-top: 30px;
+        
+    }
+
+    .container button {
+        margin-top: 100px;
+    }
+    
+    .sedans {
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .luxury {
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+
+
+}
+
