@@ -52,7 +52,7 @@
 }
 
 .sedans button {
-    padding:15px;
+    padding:15px 0px;
     color: hsl(0, 0%, 95%);
     border: hsl(0, 0%, 95%);
     border-radius: 20px;   
@@ -60,7 +60,7 @@
 }
 
 .sedans button a {
-    padding:10px;
+    padding:15px 15px;
     font-family: var(--p-font);
     font-size:15px;
     text-decoration: none;
@@ -103,7 +103,7 @@
 }
 
 .suvs button {
-    padding:15px;
+    padding:15px 0px;
     color: hsl(0, 0%, 95%);
     border: hsl(0, 0%, 95%);
     border-radius: 20px;   
@@ -111,7 +111,7 @@
 }
 
 .suvs button a {
-    padding:10px;
+    padding:15px 15px;
     font-family: var(--p-font);
     font-size:15px;
     text-decoration: none;
@@ -155,7 +155,7 @@
 }
 
 .luxury button {
-    padding:15px;
+    padding:15px 0px;
     color: hsl(0, 0%, 95%);
     border: hsl(0, 0%, 95%);
     border-radius: 20px;   
@@ -163,7 +163,7 @@
 }
 
 .luxury button a {
-    padding:10px;
+    padding:15px 15px;
     font-family: var(--p-font);
     font-size:15px;
     text-decoration: none;
