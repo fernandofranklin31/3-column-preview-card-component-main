@@ -6,6 +6,10 @@
     /* p = paragraphs */
 }   
 
+html {
+    background-color: hsl(0, 0%, 95%);
+}
+
 * { 
     margin: 0;
     padding: 0;
